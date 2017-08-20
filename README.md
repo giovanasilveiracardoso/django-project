@@ -13,8 +13,8 @@ $ pip install -r requirements.txt
 
 #### Banco de dados
 
-Instale o PostgreSQL
-Crie um banco de dados chamado 'teste'
+Instale o PostgreSQL <br/>
+Crie um banco de dados chamado 'teste' <br/>
 Configure o usuário e senha da conexão em '/mysite/settings.py'
 ```sh
 $ python manage.py migrate
@@ -26,5 +26,5 @@ $ python manage.py createsuperuser
 ```sh
 $ python manage.py runserver
 ```
-Acesse http://127.0.0.1:8000/admin/
+Acesse http://127.0.0.1:8000/admin/ <br/>
 Utilize o usuário e senha definidos acima para acessar o sistema
