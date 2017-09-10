@@ -24,9 +24,19 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 35px;
 }
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+}
+
+#agrupaTituloBotaoEditar {
+    display: flex;
+}
+
+h2 {
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
